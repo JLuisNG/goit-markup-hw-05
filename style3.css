@@ -1,0 +1,119 @@
+
+.content-3 .container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    
+}
+
+.svg-container-1{
+    
+    border-radius: 100%; 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: auto;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+
+.svg-ico{
+
+    margin-left: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    fill: #AFB1B8;
+
+}
+
+.svg-ico:hover{
+
+    background-color: #2196F3;
+    border-radius: 50%; 
+    fill: #FFFFFF;
+
+}
+
+.svg-container-2 svg{
+
+    margin-top: 25px;
+    width: 23px;
+    height: 23px;
+    margin-left: 15px;
+
+}
+
+
+.ubi .svg-container-footer{
+    width: 306px;
+    height: 80px;
+    margin-top: -140px;
+    margin-left: -30px;
+
+}
+
+.svg-ico-2{
+
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.svg-ico-2:hover{
+
+    background-color: #2196F3 ;
+    border-radius: 50%;
+
+}
+
+.svg-container-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.social-icons li {
+    margin-right: -10px;
+}
+
+.back-item-footer {
+
+    border-radius: 50%;
+    display: flex;
+    height: 44px;
+    padding: 5px;
+    width: 44px;
+
+}
+
+.back-item-footer:hover{
+    background-color: #2196F3;
+}
+
+.icono-item {
+    fill: #AFB1B8;
+    height: 20px;
+    width: 20px;
+    margin-top: -1px;
+    margin-left: 7px;
+}
+
+.icono-item:hover{
+    fill: #FFFFFF;
+}
