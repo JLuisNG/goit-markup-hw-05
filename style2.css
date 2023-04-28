@@ -7,63 +7,8 @@
     padding: 0;
 }
 
-.Portafolio-2{
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14px;
-    letter-spacing: 16%;
-    text-align: left;
-    color: #2196F3;
-}
-
-.Estudio-2,
-.Contactos-2{
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14px;
-    letter-spacing: 16%;
-    text-align: left;
-    color: #212121
-}
-
-.Estudio-2:hover, 
-.Portafolio-2:hover, 
-.Contactos-2:hover{
-    color: #2196F3
-}
-
-.Estudio-2:focus, 
-.Portafolio-2:focus, 
-.Contactos-2:foc{
-    color: #2196F3
-}
-
-
-.mail1-2, 
-.telf-2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14px;
-    letter-spacing: 16%;
-    text-align: left;
-    color: #757575
-}
-
-.mail1-2:hover, 
-.telf-2:hover{
-    color: #2196F3;
-}
-
-.mail1-2:focus, 
-.telf-2:focus{
-    color: #2196F3;
-}
-
+                /* boton */
+                
 .content-7 .container .boton button{
     font-family: 'Roboto';
     font-style: normal;
@@ -78,6 +23,7 @@
     margin: 5px;
     cursor: pointer;
     border: 0px;
+    margin-top: 30px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -96,6 +42,9 @@
 
 }
 
+
+            /* Card´s */
+
 .content-8 .contenedor .texto-imagen h2{
     font-family: 'Roboto';
     font-style: normal;
@@ -109,6 +58,8 @@
     margin-top: 15px;
 }
 
+            /* txt-N */
+
 .content-8 .contenedor .texto-imagen h2{
     font-family: 'Roboto';
     font-style: normal;
@@ -122,18 +73,8 @@
     margin-top: 15px;
 }
 
-.content-8 .contenedor .texto-imagen p{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
-    color: #757575;
-    text-align: left;
-    margin-left: 15px;
-    margin-top: 18px;
-}
+            /* txt-D */
+
 
 .content-8 .contenedor .texto-imagen p{
     font-family: 'Roboto';
@@ -147,8 +88,21 @@
     margin-left: 20px;
     margin-top: 15px;
 }
+            /* box card */
 
 .contenedor {
+    display: inline-block;
+    margin: 15px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    max-width: 100%;
+    width: 372.5px;
+    height: auto;
+    border: 1px solid #EEEEEE;
+
+}
+
+.contenedor:hover{
     display: inline-block;
     margin: 15px;
     margin-bottom: 10px;
@@ -162,84 +116,7 @@
 
 .contenedor-all-main{
     width: 1217px;
-    height: 1360px;
+    height: 1365px;
 }
 
-
-.content-9{
-
-    background-color: #2F303A;
-    height: 252px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: auto;
-    border-top: 1px solid #757575;
-
-}
-
-.content-9 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: -1050px;
-}
-
-.content-9 .container .Web-Studio{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    height: 80px;
-}
-
-.content-9 ul li{
-    display: flex;
-    align-items: center;
-    margin-left: 20px;
-}
-
-.direccion-2 p,
-.email a,
-.telf-2 a {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    width: 200px;
-}
-
-.direccion-2 p:hover,
-.email a:hover,
-.telf-2 a:hover {
-    color: #2196F3;
-}
-
-.direccion-2 p:focus,
-.email a:focus,
-.telf-2 a:focus {
-    color: #2196F3;
-}
-
-.content-9 .ubi h4{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    float: right;
-    margin-right: 480px;
-    margin-top: -175px;
-}
-
-.content-9 .ubi {
-    display: flex;
-    align-items: center;
-}
+            /* FOOTER CSS-1 */
