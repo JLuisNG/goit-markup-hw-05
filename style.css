@@ -338,6 +338,11 @@ footer{
 
             /* Our Team */
 
+.content-5{
+    width: 1600px;
+    
+}
+
 .content-5 .container {
     text-align: center;
     margin-top: 80px;
@@ -514,6 +519,7 @@ footer{
 .content-9{
 
     background-color: #2F303A;
+    width: 1600px;
     height: 252px;
     display: flex;
     flex-direction: column;
