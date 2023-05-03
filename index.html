@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="style3.css">
-    <link rel="stylesheet" href="html/Portafolio.html">
+    <link rel="import" href="html/Portafolio.html">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <script src="./modal.js"></script>
 
 </head>
 
@@ -129,25 +130,22 @@
             <!-- SOLUCIONES TXT AND BUTTON -->
             
 
-        <section class="content-2">
-
-            <div class="container">
-
-                <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-
-                <ul>
-
-                    <li>
-
-                        <button type="button">Solicite nuestro servicio</button>
-                    </li>
-
-                
-                </ul>
-
-            </div>
-
-        </section>
+            <section class="content-2">
+                <div class="container">
+                    <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+                    <ul>
+                        <li>
+                            <button id="boton-modal">Solicite nuestro servicio</button>
+                        </li>
+                    </ul>
+                    <div id="miVentanaModal" class="ventana-modal">
+                        <div class="ventana-modal-contenido">
+                          <span class="cerrar">&times;</span>
+                          <p></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
                 <!-- BENEFICIOS -->
 
@@ -939,12 +937,7 @@
 
             </div>
 
-            </div>
         </section>
-
-            </ul>
-
-        </div>
 
         </section>
 
