@@ -7,6 +7,64 @@
     padding: 0;
 }
 
+            /* Header P */
+            
+.Portafolio-2{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14px;
+    letter-spacing: 16%;
+    color: #2196F3;
+    position: relative;
+}
+
+.Portafolio-2:hover{
+    color: #2196F3 ;
+}
+
+.Portafolio-2:focus{
+    color: #2196F3 ;
+}
+
+.Portafolio-2::after {
+    content: "";
+    position: absolute;
+    top: 33px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #2196F3;
+    border-radius: 5px;
+}
+
+.Estudio-2,
+.Contactos-2 {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14px;
+    letter-spacing: 16%;
+    color: #212121;
+}
+
+.Estudio-2:hover,
+.Portafolio-2:hover,
+.Contactos-2:hover {
+    color: #2196F3 ;
+
+}
+
+.Estudio-2:focus,
+.Portafolio-2:focus,
+.Contactos-2:focus {
+    color: #2196F3 ;
+    
+
+}
+
                 /* boton */
                 
 .content-7 .container .boton button{
@@ -14,7 +72,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 30px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -88,6 +146,47 @@
     margin-left: 20px;
     margin-top: 15px;
 }
+
+        /* txt Card Over */
+
+
+.content-8 .contenedor .img-2 .overlay{
+    position: relative;
+    overflow: hidden;
+
+}
+
+.content-8 .contenedor .img-2 .overlay-txt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    background-color: rgba(33, 150, 243, 0.9);
+
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 87px 20px;
+
+    display: flex;
+    align-items: center;
+    transform: translateY(100%);
+
+
+}
+
+.contenedor:hover .img-2 .overlay-txt{
+    transform: translateY(0%);
+    transition: calc(250ms);
+
+}
+
             /* box card */
 
 .contenedor {
