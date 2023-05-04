@@ -214,7 +214,7 @@ footer{
     
 }
 
-.content-2 .container button {
+.content-2 .container .abrir {
     background-color: #2196F3;
     color: #FFFFFF;
     font-weight: 700;
@@ -340,7 +340,8 @@ footer{
     align-items: center;
     justify-content: center;
     position: relative;
-    bottom: 73px;
+    bottom: 73px; 
+
 }
 
 .ul-2 P{
@@ -353,6 +354,7 @@ footer{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    
 }
 
             /* Our Team */

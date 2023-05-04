@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="style3.css">
     <link rel="import" href="html/Portafolio.html">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
-    <script src="./modal.js"></script>
 
 </head>
 
@@ -25,7 +24,7 @@
 
                 <!-- LINK WEBSTUDIO -->
 
-    <section class="content-1">
+    <div class="content-1">
 
         <div class="header-container">
 
@@ -121,7 +120,7 @@
 
             </div>
 
-        </section>
+        </div>
 
     </header>
 
@@ -130,22 +129,21 @@
             <!-- SOLUCIONES TXT AND BUTTON -->
             
 
-            <section class="content-2">
-                <div class="container">
-                    <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-                    <ul>
-                        <li>
-                            <button id="boton-modal">Solicite nuestro servicio</button>
-                        </li>
-                    </ul>
-                    <div id="miVentanaModal" class="ventana-modal">
-                        <div class="ventana-modal-contenido">
-                          <span class="cerrar">&times;</span>
-                          <p></p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+<section class="content-2">
+  <div class="container">
+    <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+    <!-- BTN -->
+    <button class="abrir" data-modal-open>Solicite nuestro servicio</button>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <p></p>
+        <button class="close" data-modal-close>
+          <span>&times;</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
 
                 <!-- BENEFICIOS -->
 
@@ -793,7 +791,7 @@
 
             <!-- Seccion del footer -->
 
-        <section class="content-9">
+        <div class="content-9">
             
             <div class="container">
 
@@ -939,9 +937,11 @@
 
         </section>
 
-        </section>
+        </div>
 
     </footer>
+
+    <script src="./js/modal.js"></script>
 
 </body>
 </html>
