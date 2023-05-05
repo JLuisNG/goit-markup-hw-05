@@ -177,13 +177,13 @@
     display: flex;
     align-items: center;
     transform: translateY(100%);
-
+    transition: transform ease-in 0.25s;
 
 }
 
 .contenedor:hover .img-2 .overlay-txt {
     transform: translateY(0%);
-    transition: transform ease-in 0.25s;
+
 }
 
 
