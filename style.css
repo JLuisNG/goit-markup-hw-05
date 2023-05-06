@@ -13,6 +13,16 @@ section{
 
 }
 
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100;
+}
+
                          /* seccion header */
                                 
 header{
