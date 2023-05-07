@@ -8,35 +8,25 @@
 }
 
 section{
-    padding: auto;
-    margin: auto;
+    padding: 0 auto;
+    margin: 0 auto;
+    
 
 }
-
-.container{
-    width: 100%;
-    height: 100%;
-}
-
-.contenedor{
-    width: 100%;
-    height: 100;
-}
-
                          /* seccion header */
                                 
-header{
-    border: 1px solid #ECECEC;
+header {
+    border: 1px solid #ececec;
+    max-width: 100%;
 }
 
                            /* seccion del encabezado */
 
 .content-1 .header-container {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    width: 1100px;
     margin: auto;
     height: 80px;
 
@@ -202,14 +192,17 @@ footer{
     background-image: url(images/IMAGES-PAGE-1/Imagen\ \(10\).jpg);
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 1600px;
+    max-width: 1200px;
+    height: 600px;
 } 
+
+
 
 .content-2 .container h1 {
     font-family: 'Roboto';
@@ -239,25 +232,30 @@ footer{
 }
 
         /* beneficios + img */
+body {
+    overflow-x: hidden;
+}
 
-.content-3 .container .txt-beneficios{
+.content-3 {
+    overflow-y: hidden;
+}
+
+.content-3 .container .txt-beneficios {
     width: 1200px;
     margin: auto;
     display: flex;
     margin-top: 10px;
 }
 
-.content-3 .container{
-
+.content-3 .container {
     width: 1200px;
     margin: auto;
     display: flex;
     margin-top: 100px;
     flex-wrap: wrap;
-
 }
 
-.content-3 .container .txt-1{
+.content-3 .container .txt-1 {
     width: 270px;
     vertical-align: top;
     margin-right: 30px;
@@ -265,16 +263,15 @@ footer{
     margin-top: 15px;
 }
 
-.txt-1 h2{
+.txt-1 h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400px;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 3%;
-
 }
 
-.txt-1 p{
+.txt-1 p {
     font-family: 'Roboto', sans-serif;
     font-weight: 400px;
     font-size: 14px;
@@ -283,7 +280,7 @@ footer{
     color: #757575;;
 }
 
-.svg-container{
+.svg-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -296,20 +293,18 @@ footer{
     margin-top: 15px;
 }
 
-.svg-container:hover{
-
+.svg-container:hover {
     border: 1px solid #2196F3;
-
 }
 
-.icon-2{
-
+.icon-2 {
     stroke-width: 0;
     stroke: currentColor;
     fill: #212121;
     margin: 0 auto;
     align-self: center;
 }
+
 
         /* Dedicacion */
 
