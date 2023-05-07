@@ -234,7 +234,11 @@ footer{
         /* beneficios + img */
 body {
     overflow-x: hidden;
+    margin: 0 auto;
+    padding: 0 auto;
 }
+
+
 
 
 .content-3 .container .txt-beneficios {
@@ -304,6 +308,10 @@ body {
 
 
         /* Dedicacion */
+
+.content-4{
+    overflow: hidden;
+}
 
 .content-4 .container{
     text-align: center;
@@ -451,6 +459,9 @@ body {
 .content-10{
     width: 1200px;
     height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-10 .container .texto{
@@ -482,7 +493,7 @@ body {
     height: 81px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .content-10 .container .container-svg .fondo-svg:hover{
