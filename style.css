@@ -361,13 +361,17 @@ body {
 
             /* Our Team */
 
+.content-5{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
 .content-5 .container {
     text-align: center;
     margin-top: 80px;
     background-color:#F5F4FA
     ;
-
 }
 
 .content-5 .container .ourT-3 h2 {
@@ -380,13 +384,15 @@ body {
     letter-spacing: 0.03em;
     padding-top: 20px;
     color: #212121;
+    margin-top: 20px;
 }
 
 .content-5 .container .card {
     display: flex;
     border: 0.1px solid #ccc;
-    margin: 20px;
+    margin: 11px;
     box-shadow: 0px 1px 3px;
+    margin-top: 40px;
 }
 
 .container .card h3 {
