@@ -11,7 +11,6 @@ section{
     padding: 0 auto;
     margin: 0 auto;
     
-
 }
                          /* seccion header */
                                 
@@ -195,7 +194,7 @@ body {
 
 .content-2 .container {
     background-color: #2F303A;
-    background-image: url(images/IMAGES-PAGE-1/Imagen\ \(10\).jpg);
+    background-image: url(./image/Imagen\ \(10\).jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
