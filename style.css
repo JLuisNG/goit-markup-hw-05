@@ -118,6 +118,11 @@ header {
 
 }
 
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
 
         /* Correo Y Telefono */
 
@@ -231,11 +236,7 @@ header {
 }
 
         /* beneficios + img */
-body {
-    overflow-x: hidden;
-    margin: 0 auto;
-    padding: 0 auto;
-}
+
 
 .content-3 .container .txt-beneficios {
     width: 1200px;
