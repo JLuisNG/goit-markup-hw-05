@@ -300,7 +300,6 @@ body {
     align-self: center;
 }
 
-
         /* Dedicacion */
 
 .content-4{
@@ -313,14 +312,16 @@ body {
     margin: 0 auto;
 }
 
-.container .TITULE-2H{
-    font-size: 36px;
-    font-style: bold;
+.container .TITULE-2H h2{
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
-    line-height: 1;
+    font-size: 36px;
+    line-height: 42px;
     text-align: center;
-    padding-top: 20px;
-    clear: both;
+    letter-spacing: 0.03em;
+
+    color: #212121;
 }
 
 .container ul{
